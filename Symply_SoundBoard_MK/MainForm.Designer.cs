@@ -96,9 +96,9 @@ namespace Symply_SoundBoard_MK
             // 
             // ComboPb
             // 
-            resources.ApplyResources(this.ComboPb, "ComboPb");
             this.ComboPb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboPb.FormattingEnabled = true;
+            resources.ApplyResources(this.ComboPb, "ComboPb");
             this.ComboPb.Name = "ComboPb";
             this.ComboPb.SelectedIndexChanged += new System.EventHandler(this.ComboPb_SelectedIndexChanged);
             // 
@@ -130,17 +130,17 @@ namespace Symply_SoundBoard_MK
             // 
             // ComboVC
             // 
-            resources.ApplyResources(this.ComboVC, "ComboVC");
             this.ComboVC.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboVC.FormattingEnabled = true;
+            resources.ApplyResources(this.ComboVC, "ComboVC");
             this.ComboVC.Name = "ComboVC";
             this.ComboVC.SelectedIndexChanged += new System.EventHandler(this.ComboVC_SelectedIndexChanged);
             // 
             // ComboMic
             // 
-            resources.ApplyResources(this.ComboMic, "ComboMic");
             this.ComboMic.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboMic.FormattingEnabled = true;
+            resources.ApplyResources(this.ComboMic, "ComboMic");
             this.ComboMic.Name = "ComboMic";
             this.ComboMic.SelectedIndexChanged += new System.EventHandler(this.ComboMic_SelectedIndexChanged);
             // 
@@ -271,8 +271,8 @@ namespace Symply_SoundBoard_MK
             // 
             // ComboProfile
             // 
-            resources.ApplyResources(this.ComboProfile, "ComboProfile");
             this.ComboProfile.FormattingEnabled = true;
+            resources.ApplyResources(this.ComboProfile, "ComboProfile");
             this.ComboProfile.Name = "ComboProfile";
             this.ComboProfile.SelectedIndexChanged += new System.EventHandler(this.ComboProfile_SelectedIndexChanged);
             // 
@@ -290,36 +290,36 @@ namespace Symply_SoundBoard_MK
             // 
             // menuStrip1
             // 
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.languageToolStripMenuItem,
             this.aboutToolStripMenuItem});
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
             // languageToolStripMenuItem
             // 
-            resources.ApplyResources(this.languageToolStripMenuItem, "languageToolStripMenuItem");
             this.languageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.englishToolStripMenuItem,
             this.frenchToolStripMenuItem});
             this.languageToolStripMenuItem.Name = "languageToolStripMenuItem";
+            resources.ApplyResources(this.languageToolStripMenuItem, "languageToolStripMenuItem");
             // 
             // englishToolStripMenuItem
             // 
-            resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
             this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
+            resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
             this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
             // 
             // frenchToolStripMenuItem
             // 
-            resources.ApplyResources(this.frenchToolStripMenuItem, "frenchToolStripMenuItem");
             this.frenchToolStripMenuItem.Name = "frenchToolStripMenuItem";
+            resources.ApplyResources(this.frenchToolStripMenuItem, "frenchToolStripMenuItem");
             this.frenchToolStripMenuItem.Click += new System.EventHandler(this.frenchToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
-            resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // MainForm

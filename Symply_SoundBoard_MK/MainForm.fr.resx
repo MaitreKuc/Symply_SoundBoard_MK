@@ -194,8 +194,14 @@
   <data name="cbEnableLoopback.Text" xml:space="preserve">
     <value>Activer le bouclage</value>
   </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Profil</value>
+  </data>
   <data name="DeleteProfile.Text" xml:space="preserve">
     <value>Supprimer</value>
+  </data>
+  <data name="LabelidProfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 44</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LabelidProfile.Visible" type="System.Boolean, mscorlib">
@@ -206,9 +212,6 @@
   </data>
   <data name="LoadProfile.Text" xml:space="preserve">
     <value>Charger</value>
-  </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>Profil</value>
   </data>
   <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
     <value>147, 126</value>
