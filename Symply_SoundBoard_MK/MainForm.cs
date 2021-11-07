@@ -22,7 +22,8 @@ namespace Symply_SoundBoard_MK
         BufferedWaveProvider loopbackWaveProvider = null;
         WaveOut loopbackWaveOut = null;
         
-        private float soundVolume;
+        
+
         private bool volumeChangedBySlider = false;
         private bool volumeChangedByField = false;
         
@@ -75,25 +76,35 @@ namespace Symply_SoundBoard_MK
 
         public MainForm()
         {
+            int lang = sql.LastLang();
+            switch (lang)
+            {
+                case 0:
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en");
+                    break;
+                case 1:
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("fr");
+                    break;
+            }
             InitializeComponent();
 
-            sql.ReadListProfil(ComboProfile);
-            sql.ReadLastProfil(ComboProfile, LabelidProfile);
-            Build.idprofile = Convert.ToInt32(LabelidProfile.Text);
-            sql.ReadSQL(TableLayout, LabelRow, LabelCol, LabelidProfile,this,Build);
+                sql.ReadListProfil(ComboProfile);
+                sql.ReadLastProfil(ComboProfile, LabelidProfile);
+                Build.idprofile = Convert.ToInt32(LabelidProfile.Text);
+                sql.ReadSQL(TableLayout, LabelRow, LabelCol, LabelidProfile, this, Build);
 
-            DisableCheckboxChangeEvents();
-            DisableSoundVolumeChangeEvents();
+                DisableCheckboxChangeEvents();
+                DisableSoundVolumeChangeEvents();
 
-            loadSoundDevices(false);
+                loadSoundDevices(false);
 
-            EnableCheckboxChangeEvents();
-            EnableSoundVolumeChangeEvents();
-            EnableDeviceChangeEvents();
-            
-            initAudioPlaybackEngine1();
-            initAudioPlaybackEngine2();
-            restartLoopback();
+                EnableCheckboxChangeEvents();
+                EnableSoundVolumeChangeEvents();
+                EnableDeviceChangeEvents();
+
+                initAudioPlaybackEngine1();
+                initAudioPlaybackEngine2();
+                restartLoopback();
         }
 
         //-----------------BUTTON----------------------------------------
@@ -170,7 +181,10 @@ namespace Symply_SoundBoard_MK
         //-----------------VOLUME CHANGE--------------------------
         private void vsSoundVolume_VolumeChanged(object sender, EventArgs e)
         {
-            soundVolume = vsSoundVolume.Volume;
+
+
+            Build.sound = vsSoundVolume.Volume;
+                 
 
 
             //prevent infinite or skipped changes
@@ -186,10 +200,6 @@ namespace Symply_SoundBoard_MK
            // nSoundVolume.Value = Helper.linearVolumeToInteger(vsSoundVolume.Volume);
         }
 
-        private void vsSoundVolume_MouseWheel(object sender, MouseEventArgs e)
-        {
-            //vsSoundVolume.Volume = Helper.getNewSoundVolume(vsSoundVolume.Volume, e.Delta);
-        }
 
         private void nSoundVolume_ValueChanged(object sender, EventArgs e)
         {
@@ -507,22 +517,20 @@ namespace Symply_SoundBoard_MK
         //---------------MENUSTRIP-----------------------------
         private void englishToolStripMenuItem_Click(object sender, EventArgs e)
         {       
-            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en");
-            this.Controls.Clear();
-            InitializeComponent();
-            frenchToolStripMenuItem.Checked = false;
-            englishToolStripMenuItem.Checked = true;
-            sql.UpdateLang(0);    
+            
+            //frenchToolStripMenuItem.Checked = false;
+            //englishToolStripMenuItem.Checked = true;
+            sql.UpdateLang(0);
+            Application.Restart();
         }
 
         private void frenchToolStripMenuItem_Click(object sender, EventArgs e)
         { 
-            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("fr");
-            this.Controls.Clear();
-            InitializeComponent();
-            frenchToolStripMenuItem.Checked = true;
-            englishToolStripMenuItem.Checked = false;
-            sql.UpdateLang(1); 
+            
+            //frenchToolStripMenuItem.Checked = true;
+            //englishToolStripMenuItem.Checked = false;
+            sql.UpdateLang(1);
+            Application.Restart();
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -530,11 +538,13 @@ namespace Symply_SoundBoard_MK
             int lang = sql.LastLang();
             switch (lang)
             {
-                case 0 :
-                    this.englishToolStripMenuItem_Click(sender,e);
+                case 0:
+                    frenchToolStripMenuItem.Checked = false;
+                    englishToolStripMenuItem.Checked = true;
                     break;
-                case 1 :
-                    this.frenchToolStripMenuItem_Click(sender,e);
+                case 1:
+                    frenchToolStripMenuItem.Checked = true;
+                    englishToolStripMenuItem.Checked = false;
                     break;
             }
         }

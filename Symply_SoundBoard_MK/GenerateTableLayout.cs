@@ -8,6 +8,26 @@ namespace Symply_SoundBoard_MK
         public int idprofile;
         private string PathSound;
         SQLClass sql = new SQLClass();
+        public float sound;
+        public float soundVolume
+        {
+            get
+            {
+                return sound;
+            }
+            set
+            {
+                if( value==0)
+                {
+                    sound = 1;
+                }
+                else
+                {
+                    sound = value;
+                }
+                
+            }
+        }
         public void Generate(int columnCount, int rowCount, TableLayoutPanel layout,MainForm fm)
         {
             layout.SuspendLayout();
@@ -71,7 +91,7 @@ namespace Symply_SoundBoard_MK
             else
             {
                 PathSound = sql.ReadSQLSound(idprofile, bt);
-                if(PathSound !="") fm.playSound(PathSound, 1);
+                if(PathSound !="") fm.playSound(PathSound, soundVolume);
             }
         }
     }
