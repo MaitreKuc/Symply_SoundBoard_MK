@@ -127,9 +127,6 @@
   <data name="vsSoundVolume.Size" type="System.Drawing.Size, System.Drawing">
     <value>302, 20</value>
   </data>
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="vsSoundVolume.TabIndex" type="System.Int32, mscorlib">
     <value>100</value>
@@ -140,11 +137,11 @@
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
   </data>
-  <data name="&gt;&gt;languageToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblLoopback.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>About</value>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 69</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>Language</value>
@@ -155,9 +152,8 @@
   <data name="gbSoundboard.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ComboVC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 3, 3</value>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lblLoopback.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -183,27 +179,28 @@
   <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>363, 65</value>
   </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>aboutToolStripMenuItem</value>
+  </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
   <data name="DeleteProfile.Text" xml:space="preserve">
     <value>Delete</value>
   </data>
-  <data name="cbEnableLoopback.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="gbSoundboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>579, 380</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>(do not choose virtual cable)</value>
   </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="RemoveRow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="&gt;&gt;btnReloadDevices.Parent" xml:space="preserve">
+    <value>gbAudioDevices</value>
   </data>
   <data name="&gt;&gt;LabelCol.Name" xml:space="preserve">
     <value>LabelCol</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="groupBox3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -225,14 +222,14 @@
   <data name="RemoveCol.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="vsSoundVolume.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 3, 3, 5</value>
-  </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1092, 24</value>
   </data>
   <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
     <value>129, 126</value>
+  </data>
+  <data name="&gt;&gt;RemoveCol.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -249,6 +246,9 @@
   <data name="&gt;&gt;ComboProfile.Name" xml:space="preserve">
     <value>ComboProfile</value>
   </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1092, 450</value>
+  </data>
   <data name="&gt;&gt;RemoveRow.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -264,6 +264,9 @@
   <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;AddRow.Name" xml:space="preserve">
+    <value>AddRow</value>
+  </data>
   <data name="&gt;&gt;lblPlayback1.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
@@ -273,8 +276,11 @@
   <data name="ComboPb.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 21</value>
   </data>
-  <data name="&gt;&gt;SaveProfile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="AddRow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 19</value>
+  </data>
+  <data name="&gt;&gt;TableLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="AddRow.Text" xml:space="preserve">
     <value>+</value>
@@ -285,8 +291,8 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
-    <value>groupBox4</value>
+  <data name="ComboPb.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
   <data name="ComboProfile.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 21</value>
@@ -324,14 +330,14 @@
   <data name="gbAudioDevices.Text" xml:space="preserve">
     <value>Soundboard Audio devices</value>
   </data>
-  <data name="lblPlayback1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblLoopback.Parent" xml:space="preserve">
     <value>gbAudioDevices</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 58</value>
   </data>
   <data name="LabelRow.Text" xml:space="preserve">
     <value>1</value>
@@ -345,14 +351,20 @@
   <data name="ComboMic.Location" type="System.Drawing.Point, System.Drawing">
     <value>142, 45</value>
   </data>
-  <data name="&gt;&gt;RemoveCol.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
-  <data name="&gt;&gt;gbSoundboard.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="LoadProfile.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;RemoveCol.Name" xml:space="preserve">
     <value>RemoveCol</value>
+  </data>
+  <data name="AddCol.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="AddCol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="&gt;&gt;btnReloadDevices.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -360,8 +372,8 @@
   <data name="AddRow.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="AddRow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 19</value>
+  <data name="&gt;&gt;ComboPb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;gbAudioDevices.Name" xml:space="preserve">
     <value>gbAudioDevices</value>
@@ -375,29 +387,26 @@
   <data name="nSoundVolume.Location" type="System.Drawing.Point, System.Drawing">
     <value>316, 30</value>
   </data>
-  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
   <data name="ComboMic.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 21</value>
   </data>
   <data name="&gt;&gt;ComboMic.Parent" xml:space="preserve">
     <value>gbAudioDevices</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;ComboPb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="nSoundVolume.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 20</value>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
   <data name="AddCol.Location" type="System.Drawing.Point, System.Drawing">
     <value>119, 21</value>
   </data>
-  <data name="AddCol.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;LabelCol.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="RemoveRow.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LoadProfile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ComboVC.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 21</value>
@@ -405,11 +414,14 @@
   <data name="&gt;&gt;LabelidProfile.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblPlayback1.Parent" xml:space="preserve">
-    <value>gbAudioDevices</value>
+  <data name="&gt;&gt;ComboProfile.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;gbAudioDevices.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComboPb.Parent" xml:space="preserve">
+    <value>gbAudioDevices</value>
   </data>
   <data name="groupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -417,8 +429,16 @@
   <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
     <value>groupBox3</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Right click on button : 
+Modify sound
+Left click on button : 
+Play sound
+Middle click on button : 
+Modify label</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cbEnableLoopback.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -429,17 +449,14 @@
   <data name="&gt;&gt;lblPlayback1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="&gt;&gt;LabelCol.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;ComboMic.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
   <data name="&gt;&gt;DeleteProfile.Parent" xml:space="preserve">
     <value>groupBox3</value>
+  </data>
+  <data name="DeleteProfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 23</value>
   </data>
   <data name="&gt;&gt;gbAudioDevices.Parent" xml:space="preserve">
     <value>$this</value>
@@ -453,20 +470,17 @@
   <data name="gbSoundboard.Size" type="System.Drawing.Size, System.Drawing">
     <value>364, 58</value>
   </data>
-  <data name="lblLoopback.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
-  </data>
   <data name="&gt;&gt;lblLoopback.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RemoveCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="englishToolStripMenuItem.Text" xml:space="preserve">
     <value>English</value>
-  </data>
-  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
   </data>
   <data name="LabelCol.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -495,11 +509,14 @@
   <data name="DeleteProfile.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="SaveProfile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 20</value>
-  </data>
   <data name="&gt;&gt;AddRow.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;vsSoundVolume.Type" xml:space="preserve">
+    <value>NAudio.Gui.VolumeSlider, NAudio, Version=1.10.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="LabelidProfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 46</value>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 20</value>
@@ -528,6 +545,9 @@
   <data name="&gt;&gt;btnReloadDevices.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="lblPlayback2.Text" xml:space="preserve">
+    <value>Playback Device 2</value>
+  </data>
   <data name="&gt;&gt;nSoundVolume.Parent" xml:space="preserve">
     <value>gbSoundboard</value>
   </data>
@@ -539,12 +559,6 @@
   </data>
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
-  </data>
-  <data name="SaveProfile.Text" xml:space="preserve">
-    <value>Save</value>
-  </data>
-  <data name="lblPlayback1.Text" xml:space="preserve">
-    <value>Speakers or Virtual Cable</value>
   </data>
   <data name="&gt;&gt;DeleteProfile.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -567,20 +581,23 @@
   <data name="btnReloadDevices.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  <data name="&gt;&gt;RemoveCol.Parent" xml:space="preserve">
-    <value>groupBox2</value>
+  <data name="&gt;&gt;gbSoundboard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="cbEnableLoopback.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+  <data name="&gt;&gt;ComboVC.Name" xml:space="preserve">
+    <value>ComboVC</value>
+  </data>
+  <data name="&gt;&gt;RemoveRow.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ComboVC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 18</value>
   </data>
   <data name="cbEnableLoopback.Text" xml:space="preserve">
     <value>Enable Loopback</value>
   </data>
   <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;LabelRow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnReloadDevices.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -604,8 +621,8 @@
   <data name="groupBox4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
-  <data name="&gt;&gt;RemoveCol.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
   <data name="&gt;&gt;vsSoundVolume.Parent" xml:space="preserve">
     <value>gbSoundboard</value>
@@ -616,23 +633,23 @@
   <data name="&gt;&gt;LoadProfile.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="TableLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 27</value>
+  </data>
   <data name="SaveProfile.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 23</value>
   </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Row</value>
+  <data name="ComboPb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 95</value>
   </data>
   <data name="&gt;&gt;languageToolStripMenuItem.Name" xml:space="preserve">
     <value>languageToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;LabelidProfile.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="gbAudioDevices.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="&gt;&gt;frenchToolStripMenuItem.Name" xml:space="preserve">
     <value>frenchToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;btnReloadDevices.Parent" xml:space="preserve">
-    <value>gbAudioDevices</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -658,11 +675,8 @@
   <data name="TableLayout.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblPlayback1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;gbAudioDevices.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -685,8 +699,8 @@
   <data name="&gt;&gt;cbEnableLoopback.Name" xml:space="preserve">
     <value>cbEnableLoopback</value>
   </data>
-  <data name="LabelRow.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>373, 380</value>
   </data>
   <data name="SaveProfile.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -706,11 +720,11 @@
   <data name="RemoveCol.Text" xml:space="preserve">
     <value>-</value>
   </data>
-  <data name="&gt;&gt;LabelCol.Parent" xml:space="preserve">
-    <value>groupBox2</value>
+  <data name="lblLoopback.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
   </data>
-  <data name="&gt;&gt;AddRow.Name" xml:space="preserve">
-    <value>AddRow</value>
+  <data name="&gt;&gt;lblPlayback1.Parent" xml:space="preserve">
+    <value>gbAudioDevices</value>
   </data>
   <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -718,11 +732,11 @@
   <data name="LoadProfile.Location" type="System.Drawing.Point, System.Drawing">
     <value>176, 20</value>
   </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="ComboPb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 5, 5, 5</value>
-  </data>
-  <data name="LoadProfile.Text" xml:space="preserve">
-    <value>Load</value>
   </data>
   <data name="gbAudioDevices.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -730,20 +744,20 @@
   <data name="&gt;&gt;ComboProfile.Parent" xml:space="preserve">
     <value>groupBox3</value>
   </data>
-  <data name="&gt;&gt;AddCol.Parent" xml:space="preserve">
-    <value>groupBox2</value>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ComboPb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>142, 95</value>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox4</value>
   </data>
   <data name="&gt;&gt;lblLoopback.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="SaveProfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 20</value>
   </data>
-  <data name="LabelidProfile.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>949, 312</value>
   </data>
   <data name="&gt;&gt;LoadProfile.Parent" xml:space="preserve">
     <value>groupBox3</value>
@@ -757,26 +771,26 @@
   <data name="RemoveRow.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
-  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="AddCol.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;gbSoundboard.Name" xml:space="preserve">
     <value>gbSoundboard</value>
   </data>
-  <data name="&gt;&gt;vsSoundVolume.Type" xml:space="preserve">
-    <value>NAudio.Gui.VolumeSlider, NAudio, Version=1.10.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="ComboVC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 3, 3</value>
+  </data>
+  <data name="nSoundVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
   </data>
   <data name="LabelCol.Location" type="System.Drawing.Point, System.Drawing">
     <value>84, 26</value>
   </data>
-  <data name="&gt;&gt;ComboProfile.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;LabelidProfile.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="&gt;&gt;LabelCol.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -784,8 +798,8 @@
   <data name="AddRow.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="ComboVC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>142, 18</value>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 78</value>
@@ -793,11 +807,11 @@
   <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>373, 311</value>
   </data>
-  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
-    <value>aboutToolStripMenuItem</value>
+  <data name="&gt;&gt;SaveProfile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="LabelidProfile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 46</value>
+  <data name="cbEnableLoopback.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="TableLayout.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -808,8 +822,8 @@
   <data name="&gt;&gt;cbEnableLoopback.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="lblPlayback2.Text" xml:space="preserve">
-    <value>Playback Device 2</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
   <data name="ComboProfile.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 22</value>
@@ -823,31 +837,23 @@
   <data name="&gt;&gt;LoadProfile.Name" xml:space="preserve">
     <value>LoadProfile</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Right click on button : 
-Modify sound
-Left click on button : 
-Play sound
-Middle click on button : 
-Modify label</value>
+  <data name="lblPlayback1.Text" xml:space="preserve">
+    <value>Speakers or Virtual Cable</value>
   </data>
   <data name="btnReloadDevices.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 5, 5, 5</value>
   </data>
-  <data name="frenchToolStripMenuItem.Text" xml:space="preserve">
-    <value>French</value>
-  </data>
-  <data name="lblLoopback.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
   </data>
   <data name="TableLayout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="&gt;&gt;TableLayout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="SaveProfile.Text" xml:space="preserve">
+    <value>Save</value>
   </data>
-  <data name="gbAudioDevices.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="cbEnableLoopback.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>141, 13</value>
@@ -855,7 +861,7 @@ Modify label</value>
   <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>580, 312</value>
   </data>
-  <data name="AddCol.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="RemoveRow.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
   <data name="&gt;&gt;lblPlayback1.Name" xml:space="preserve">
@@ -867,14 +873,14 @@ Modify label</value>
   <data name="&gt;&gt;btnReloadDevices.Name" xml:space="preserve">
     <value>btnReloadDevices</value>
   </data>
-  <data name="RemoveRow.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="LoadProfile.Text" xml:space="preserve">
+    <value>Load</value>
   </data>
-  <data name="gbSoundboard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>579, 380</value>
+  <data name="vsSoundVolume.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 3, 3, 5</value>
   </data>
-  <data name="&gt;&gt;LoadProfile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;RemoveCol.Parent" xml:space="preserve">
+    <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;ComboVC.Parent" xml:space="preserve">
     <value>gbAudioDevices</value>
@@ -882,11 +888,11 @@ Modify label</value>
   <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1092, 450</value>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Row</value>
   </data>
-  <data name="LoadProfile.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;AddCol.Parent" xml:space="preserve">
+    <value>groupBox2</value>
   </data>
   <data name="LabelRow.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -897,23 +903,20 @@ Modify label</value>
   <data name="&gt;&gt;SaveProfile.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;gbSoundboard.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="nSoundVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
   </data>
   <data name="lblLoopback.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 48</value>
   </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 58</value>
+  <data name="&gt;&gt;LabelRow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ComboProfile.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>949, 312</value>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;LabelidProfile.Parent" xml:space="preserve">
     <value>groupBox3</value>
@@ -939,8 +942,8 @@ Modify label</value>
   <data name="LoadProfile.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 23</value>
   </data>
-  <data name="&gt;&gt;ComboVC.Name" xml:space="preserve">
-    <value>ComboVC</value>
+  <data name="LabelRow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="RemoveRow.Text" xml:space="preserve">
     <value>-</value>
@@ -957,8 +960,8 @@ Modify label</value>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Column</value>
   </data>
-  <data name="&gt;&gt;RemoveRow.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;LabelCol.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="TableLayout.RowCount" type="System.Int32, mscorlib">
     <value>2</value>
@@ -966,8 +969,8 @@ Modify label</value>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
   </data>
-  <data name="DeleteProfile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 23</value>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
   </data>
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 63</value>
@@ -975,38 +978,35 @@ Modify label</value>
   <data name="&gt;&gt;ComboMic.Name" xml:space="preserve">
     <value>ComboMic</value>
   </data>
-  <data name="&gt;&gt;AddRow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;frenchToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>373, 380</value>
+  <data name="&gt;&gt;languageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 32</value>
   </data>
-  <data name="AddCol.Text" xml:space="preserve">
-    <value>+</value>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
   </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>139, 69</value>
+  <data name="LabelidProfile.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="TableLayout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 27</value>
+  <data name="frenchToolStripMenuItem.Text" xml:space="preserve">
+    <value>French</value>
   </data>
-  <data name="nSoundVolume.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="ComboPb.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="&gt;&gt;AddRow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ComboPb.Parent" xml:space="preserve">
-    <value>gbAudioDevices</value>
+  <data name="&gt;&gt;gbSoundboard.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>About</value>
   </data>
   <data name="&gt;&gt;LabelidProfile.Name" xml:space="preserve">
     <value>LabelidProfile</value>
