@@ -86,8 +86,9 @@ namespace Symply_SoundBoard_MK
                     Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("fr");
                     break;
             }
+            
             InitializeComponent();
-
+            this.Icon = Properties.Resources.ico;
                 sql.ReadListProfil(ComboProfile);
                 sql.ReadLastProfil(ComboProfile, LabelidProfile);
                 Build.idprofile = Convert.ToInt32(LabelidProfile.Text);
@@ -105,6 +106,7 @@ namespace Symply_SoundBoard_MK
                 initAudioPlaybackEngine1();
                 initAudioPlaybackEngine2();
                 restartLoopback();
+                Build.sound = vsSoundVolume.Volume;
         }
 
         //-----------------BUTTON----------------------------------------

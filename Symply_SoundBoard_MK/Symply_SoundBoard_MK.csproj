@@ -119,7 +119,9 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <None Include="Resources\ico_large.ico" />
-    <None Include="Resources\ico.ico" />
+    <EmbeddedResource Include="Resources\ico.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <Content Include="SQL\SoundBoard.db">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
