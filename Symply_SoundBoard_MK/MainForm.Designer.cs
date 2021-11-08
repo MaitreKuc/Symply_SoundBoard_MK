@@ -98,8 +98,8 @@ namespace Symply_SoundBoard_MK
             // ComboPb
             // 
             this.ComboPb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ComboPb.FormattingEnabled = true;
             resources.ApplyResources(this.ComboPb, "ComboPb");
+            this.ComboPb.FormattingEnabled = true;
             this.ComboPb.Name = "ComboPb";
             this.ComboPb.SelectedIndexChanged += new System.EventHandler(this.ComboPb_SelectedIndexChanged);
             // 
@@ -133,16 +133,16 @@ namespace Symply_SoundBoard_MK
             // ComboVC
             // 
             this.ComboVC.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ComboVC.FormattingEnabled = true;
             resources.ApplyResources(this.ComboVC, "ComboVC");
+            this.ComboVC.FormattingEnabled = true;
             this.ComboVC.Name = "ComboVC";
             this.ComboVC.SelectedIndexChanged += new System.EventHandler(this.ComboVC_SelectedIndexChanged);
             // 
             // ComboMic
             // 
             this.ComboMic.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ComboMic.FormattingEnabled = true;
             resources.ApplyResources(this.ComboMic, "ComboMic");
+            this.ComboMic.FormattingEnabled = true;
             this.ComboMic.Name = "ComboMic";
             this.ComboMic.SelectedIndexChanged += new System.EventHandler(this.ComboMic_SelectedIndexChanged);
             // 
@@ -273,8 +273,8 @@ namespace Symply_SoundBoard_MK
             // 
             // ComboProfile
             // 
-            this.ComboProfile.FormattingEnabled = true;
             resources.ApplyResources(this.ComboProfile, "ComboProfile");
+            this.ComboProfile.FormattingEnabled = true;
             this.ComboProfile.Name = "ComboProfile";
             this.ComboProfile.SelectedIndexChanged += new System.EventHandler(this.ComboProfile_SelectedIndexChanged);
             // 
@@ -299,11 +299,11 @@ namespace Symply_SoundBoard_MK
             // 
             // comboBox1
             // 
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             resources.GetString("comboBox1.Items"),
             resources.GetString("comboBox1.Items1")});
-            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 

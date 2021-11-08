@@ -153,134 +153,17 @@
   <data name="TableLayout.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls /&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <data name="&gt;&gt;ComboPb.Name" xml:space="preserve">
-    <value>ComboPb</value>
-  </data>
-  <data name="&gt;&gt;ComboPb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ComboPb.Parent" xml:space="preserve">
-    <value>gbAudioDevices</value>
-  </data>
-  <data name="&gt;&gt;ComboPb.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>gbAudioDevices</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;lblPlayback2.Name" xml:space="preserve">
-    <value>lblPlayback2</value>
-  </data>
-  <data name="&gt;&gt;lblPlayback2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblPlayback2.Parent" xml:space="preserve">
-    <value>gbAudioDevices</value>
-  </data>
-  <data name="&gt;&gt;lblPlayback2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lblPlayback1.Name" xml:space="preserve">
-    <value>lblPlayback1</value>
-  </data>
-  <data name="&gt;&gt;lblPlayback1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblPlayback1.Parent" xml:space="preserve">
-    <value>gbAudioDevices</value>
-  </data>
-  <data name="&gt;&gt;lblPlayback1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lblLoopback.Name" xml:space="preserve">
-    <value>lblLoopback</value>
-  </data>
-  <data name="&gt;&gt;lblLoopback.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblLoopback.Parent" xml:space="preserve">
-    <value>gbAudioDevices</value>
-  </data>
-  <data name="&gt;&gt;lblLoopback.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnReloadDevices.Name" xml:space="preserve">
-    <value>btnReloadDevices</value>
-  </data>
-  <data name="&gt;&gt;btnReloadDevices.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnReloadDevices.Parent" xml:space="preserve">
-    <value>gbAudioDevices</value>
-  </data>
-  <data name="&gt;&gt;btnReloadDevices.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;ComboVC.Name" xml:space="preserve">
-    <value>ComboVC</value>
-  </data>
-  <data name="&gt;&gt;ComboVC.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ComboVC.Parent" xml:space="preserve">
-    <value>gbAudioDevices</value>
-  </data>
-  <data name="&gt;&gt;ComboVC.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;ComboMic.Name" xml:space="preserve">
-    <value>ComboMic</value>
-  </data>
-  <data name="&gt;&gt;ComboMic.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ComboMic.Parent" xml:space="preserve">
-    <value>gbAudioDevices</value>
-  </data>
-  <data name="&gt;&gt;ComboMic.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="gbAudioDevices.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 162</value>
-  </data>
-  <data name="gbAudioDevices.Size" type="System.Drawing.Size, System.Drawing">
-    <value>364, 127</value>
-  </data>
-  <data name="gbAudioDevices.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="gbAudioDevices.Text" xml:space="preserve">
-    <value>Soundboard Audio devices</value>
-  </data>
-  <data name="&gt;&gt;gbAudioDevices.Name" xml:space="preserve">
-    <value>gbAudioDevices</value>
-  </data>
-  <data name="&gt;&gt;gbAudioDevices.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gbAudioDevices.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;gbAudioDevices.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="ComboPb.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="ComboPb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>142, 95</value>
+    <value>161, 95</value>
   </data>
   <data name="ComboPb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 5, 5, 5</value>
   </data>
   <data name="ComboPb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 21</value>
+    <value>157, 21</value>
   </data>
   <data name="ComboPb.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -301,7 +184,7 @@
     <value>True</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>139, 69</value>
+    <value>158, 69</value>
   </data>
   <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 0, 3, 8</value>
@@ -417,6 +300,9 @@
   <data name="&gt;&gt;lblLoopback.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="btnReloadDevices.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="btnReloadDevices.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAE
@@ -454,14 +340,17 @@
   <data name="&gt;&gt;btnReloadDevices.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="ComboVC.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="ComboVC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>142, 18</value>
+    <value>161, 18</value>
   </data>
   <data name="ComboVC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 5, 3, 3</value>
   </data>
   <data name="ComboVC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 21</value>
+    <value>157, 21</value>
   </data>
   <data name="ComboVC.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -478,14 +367,17 @@
   <data name="&gt;&gt;ComboVC.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="ComboMic.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="ComboMic.Location" type="System.Drawing.Point, System.Drawing">
-    <value>142, 45</value>
+    <value>161, 45</value>
   </data>
   <data name="ComboMic.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 3, 5, 3</value>
   </data>
   <data name="ComboMic.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 21</value>
+    <value>157, 21</value>
   </data>
   <data name="ComboMic.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -502,6 +394,45 @@
   <data name="&gt;&gt;ComboMic.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="gbAudioDevices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 162</value>
+  </data>
+  <data name="gbAudioDevices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 127</value>
+  </data>
+  <data name="gbAudioDevices.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="gbAudioDevices.Text" xml:space="preserve">
+    <value>Soundboard Audio devices</value>
+  </data>
+  <data name="&gt;&gt;gbAudioDevices.Name" xml:space="preserve">
+    <value>gbAudioDevices</value>
+  </data>
+  <data name="&gt;&gt;gbAudioDevices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbAudioDevices.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbAudioDevices.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LabelRow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelRow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 24</value>
+  </data>
+  <data name="LabelRow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="LabelRow.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="LabelRow.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="&gt;&gt;LabelRow.Name" xml:space="preserve">
     <value>LabelRow</value>
   </data>
@@ -514,6 +445,21 @@
   <data name="&gt;&gt;LabelRow.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="RemoveRow.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="RemoveRow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="RemoveRow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="RemoveRow.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="RemoveRow.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
   <data name="&gt;&gt;RemoveRow.Name" xml:space="preserve">
     <value>RemoveRow</value>
   </data>
@@ -525,6 +471,21 @@
   </data>
   <data name="&gt;&gt;RemoveRow.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="AddRow.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="AddRow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 19</value>
+  </data>
+  <data name="AddRow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="AddRow.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="AddRow.Text" xml:space="preserve">
+    <value>+</value>
   </data>
   <data name="&gt;&gt;AddRow.Name" xml:space="preserve">
     <value>AddRow</value>
@@ -562,80 +523,20 @@
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="LabelRow.AutoSize" type="System.Boolean, mscorlib">
+  <data name="LabelCol.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="LabelRow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 24</value>
+  <data name="LabelCol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 26</value>
   </data>
-  <data name="LabelRow.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="LabelCol.Size" type="System.Drawing.Size, System.Drawing">
     <value>13, 13</value>
   </data>
-  <data name="LabelRow.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+  <data name="LabelCol.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
   </data>
-  <data name="LabelRow.Text" xml:space="preserve">
+  <data name="LabelCol.Text" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="&gt;&gt;LabelRow.Name" xml:space="preserve">
-    <value>LabelRow</value>
-  </data>
-  <data name="&gt;&gt;LabelRow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LabelRow.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;LabelRow.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="RemoveRow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 21</value>
-  </data>
-  <data name="RemoveRow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
-  </data>
-  <data name="RemoveRow.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="RemoveRow.Text" xml:space="preserve">
-    <value>-</value>
-  </data>
-  <data name="&gt;&gt;RemoveRow.Name" xml:space="preserve">
-    <value>RemoveRow</value>
-  </data>
-  <data name="&gt;&gt;RemoveRow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RemoveRow.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;RemoveRow.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="AddRow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 19</value>
-  </data>
-  <data name="AddRow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
-  </data>
-  <data name="AddRow.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="AddRow.Text" xml:space="preserve">
-    <value>+</value>
-  </data>
-  <data name="&gt;&gt;AddRow.Name" xml:space="preserve">
-    <value>AddRow</value>
-  </data>
-  <data name="&gt;&gt;AddRow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AddRow.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;AddRow.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="&gt;&gt;LabelCol.Name" xml:space="preserve">
     <value>LabelCol</value>
@@ -649,6 +550,21 @@
   <data name="&gt;&gt;LabelCol.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="AddCol.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="AddCol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 21</value>
+  </data>
+  <data name="AddCol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="AddCol.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="AddCol.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
   <data name="&gt;&gt;AddCol.Name" xml:space="preserve">
     <value>AddCol</value>
   </data>
@@ -660,6 +576,21 @@
   </data>
   <data name="&gt;&gt;AddCol.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="RemoveCol.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="RemoveCol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 21</value>
+  </data>
+  <data name="RemoveCol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="RemoveCol.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RemoveCol.Text" xml:space="preserve">
+    <value>-</value>
   </data>
   <data name="&gt;&gt;RemoveCol.Name" xml:space="preserve">
     <value>RemoveCol</value>
@@ -696,141 +627,6 @@
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>5</value>
-  </data>
-  <data name="LabelCol.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LabelCol.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 26</value>
-  </data>
-  <data name="LabelCol.Size" type="System.Drawing.Size, System.Drawing">
-    <value>13, 13</value>
-  </data>
-  <data name="LabelCol.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="LabelCol.Text" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;LabelCol.Name" xml:space="preserve">
-    <value>LabelCol</value>
-  </data>
-  <data name="&gt;&gt;LabelCol.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LabelCol.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;LabelCol.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="AddCol.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 21</value>
-  </data>
-  <data name="AddCol.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
-  </data>
-  <data name="AddCol.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="AddCol.Text" xml:space="preserve">
-    <value>+</value>
-  </data>
-  <data name="&gt;&gt;AddCol.Name" xml:space="preserve">
-    <value>AddCol</value>
-  </data>
-  <data name="&gt;&gt;AddCol.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AddCol.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;AddCol.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="RemoveCol.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 21</value>
-  </data>
-  <data name="RemoveCol.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
-  </data>
-  <data name="RemoveCol.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="RemoveCol.Text" xml:space="preserve">
-    <value>-</value>
-  </data>
-  <data name="&gt;&gt;RemoveCol.Name" xml:space="preserve">
-    <value>RemoveCol</value>
-  </data>
-  <data name="&gt;&gt;RemoveCol.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RemoveCol.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;RemoveCol.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;vsSoundVolume.Name" xml:space="preserve">
-    <value>vsSoundVolume</value>
-  </data>
-  <data name="&gt;&gt;vsSoundVolume.Type" xml:space="preserve">
-    <value>NAudio.Gui.VolumeSlider, NAudio, Version=1.10.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;vsSoundVolume.Parent" xml:space="preserve">
-    <value>gbSoundboard</value>
-  </data>
-  <data name="&gt;&gt;vsSoundVolume.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;nSoundVolume.Name" xml:space="preserve">
-    <value>nSoundVolume</value>
-  </data>
-  <data name="&gt;&gt;nSoundVolume.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nSoundVolume.Parent" xml:space="preserve">
-    <value>gbSoundboard</value>
-  </data>
-  <data name="&gt;&gt;nSoundVolume.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;cbEnableLoopback.Name" xml:space="preserve">
-    <value>cbEnableLoopback</value>
-  </data>
-  <data name="&gt;&gt;cbEnableLoopback.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbEnableLoopback.Parent" xml:space="preserve">
-    <value>gbSoundboard</value>
-  </data>
-  <data name="&gt;&gt;cbEnableLoopback.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="gbSoundboard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 295</value>
-  </data>
-  <data name="gbSoundboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>364, 58</value>
-  </data>
-  <data name="gbSoundboard.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="gbSoundboard.Text" xml:space="preserve">
-    <value>Soundboard</value>
-  </data>
-  <data name="&gt;&gt;gbSoundboard.Name" xml:space="preserve">
-    <value>gbSoundboard</value>
-  </data>
-  <data name="&gt;&gt;gbSoundboard.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gbSoundboard.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;gbSoundboard.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <data name="vsSoundVolume.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 32</value>
@@ -883,6 +679,9 @@
   <data name="cbEnableLoopback.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="cbEnableLoopback.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="cbEnableLoopback.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 15</value>
   </data>
@@ -890,7 +689,7 @@
     <value>3, 5, 5, 3</value>
   </data>
   <data name="cbEnableLoopback.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 17</value>
+    <value>107, 17</value>
   </data>
   <data name="cbEnableLoopback.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -910,89 +709,32 @@
   <data name="&gt;&gt;cbEnableLoopback.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;DeleteProfile.Name" xml:space="preserve">
-    <value>DeleteProfile</value>
+  <data name="gbSoundboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 295</value>
   </data>
-  <data name="&gt;&gt;DeleteProfile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="gbSoundboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 58</value>
   </data>
-  <data name="&gt;&gt;DeleteProfile.Parent" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="gbSoundboard.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
-  <data name="&gt;&gt;DeleteProfile.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="gbSoundboard.Text" xml:space="preserve">
+    <value>Soundboard</value>
   </data>
-  <data name="&gt;&gt;LabelidProfile.Name" xml:space="preserve">
-    <value>LabelidProfile</value>
+  <data name="&gt;&gt;gbSoundboard.Name" xml:space="preserve">
+    <value>gbSoundboard</value>
   </data>
-  <data name="&gt;&gt;LabelidProfile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LabelidProfile.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;LabelidProfile.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;SaveProfile.Name" xml:space="preserve">
-    <value>SaveProfile</value>
-  </data>
-  <data name="&gt;&gt;SaveProfile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SaveProfile.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;SaveProfile.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;LoadProfile.Name" xml:space="preserve">
-    <value>LoadProfile</value>
-  </data>
-  <data name="&gt;&gt;LoadProfile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LoadProfile.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;LoadProfile.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;ComboProfile.Name" xml:space="preserve">
-    <value>ComboProfile</value>
-  </data>
-  <data name="&gt;&gt;ComboProfile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ComboProfile.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;ComboProfile.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 27</value>
-  </data>
-  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>363, 65</value>
-  </data>
-  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>Profile</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+  <data name="&gt;&gt;gbSoundboard.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;gbSoundboard.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;gbSoundboard.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="DeleteProfile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="DeleteProfile.Location" type="System.Drawing.Point, System.Drawing">
     <value>299, 20</value>
@@ -1048,6 +790,9 @@
   <data name="&gt;&gt;LabelidProfile.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="SaveProfile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="SaveProfile.Location" type="System.Drawing.Point, System.Drawing">
     <value>238, 20</value>
   </data>
@@ -1071,6 +816,9 @@
   </data>
   <data name="&gt;&gt;SaveProfile.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="LoadProfile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="LoadProfile.Location" type="System.Drawing.Point, System.Drawing">
     <value>176, 20</value>
@@ -1096,6 +844,9 @@
   <data name="&gt;&gt;LoadProfile.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="ComboProfile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="ComboProfile.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 22</value>
   </data>
@@ -1116,6 +867,47 @@
   </data>
   <data name="&gt;&gt;ComboProfile.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 27</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 65</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 39</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Right click on button : Modify sound
+Left click on button : Play sound
+Middle click on button : Modify label</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -1153,33 +945,22 @@
   <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="comboBox1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 16</value>
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>English</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 39</value>
+  <data name="comboBox1.Items1" xml:space="preserve">
+    <value>French</value>
   </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 20</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Right click on button : Modify sound
-Left click on button : Play sound
-Middle click on button : Modify label</value>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 21</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
@@ -1217,81 +998,6 @@ Middle click on button : Modify label</value>
   </data>
   <data name="&gt;&gt;groupBoxLanguage.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="comboBox1.Items" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="comboBox1.Items1" xml:space="preserve">
-    <value>French</value>
-  </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 20</value>
-  </data>
-  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 21</value>
-  </data>
-  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
-    <value>comboBox1</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
-    <value>groupBoxLanguage</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;linkLabel1.Name" xml:space="preserve">
-    <value>linkLabel1</value>
-  </data>
-  <data name="&gt;&gt;linkLabel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;linkLabel1.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;linkLabel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 490</value>
-  </data>
-  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>363, 45</value>
-  </data>
-  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="groupBox5.Text" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="linkLabel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1346,6 +1052,30 @@ Middle click on button : Modify label</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 490</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 45</value>
+  </data>
+  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
