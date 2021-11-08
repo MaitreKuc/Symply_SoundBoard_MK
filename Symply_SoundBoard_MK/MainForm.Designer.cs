@@ -60,11 +60,11 @@ namespace Symply_SoundBoard_MK
             this.ComboProfile = new System.Windows.Forms.ComboBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.languageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.frenchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.groupBoxLanguage = new System.Windows.Forms.GroupBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label2 = new System.Windows.Forms.Label();
             this.gbAudioDevices.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -72,7 +72,8 @@ namespace Symply_SoundBoard_MK
             ((System.ComponentModel.ISupportInitialize)(this.nSoundVolume)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
+            this.groupBoxLanguage.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // TableLayout
@@ -82,7 +83,6 @@ namespace Symply_SoundBoard_MK
             // 
             // gbAudioDevices
             // 
-            resources.ApplyResources(this.gbAudioDevices, "gbAudioDevices");
             this.gbAudioDevices.Controls.Add(this.ComboPb);
             this.gbAudioDevices.Controls.Add(this.label6);
             this.gbAudioDevices.Controls.Add(this.lblPlayback2);
@@ -91,6 +91,7 @@ namespace Symply_SoundBoard_MK
             this.gbAudioDevices.Controls.Add(this.btnReloadDevices);
             this.gbAudioDevices.Controls.Add(this.ComboVC);
             this.gbAudioDevices.Controls.Add(this.ComboMic);
+            resources.ApplyResources(this.gbAudioDevices, "gbAudioDevices");
             this.gbAudioDevices.Name = "gbAudioDevices";
             this.gbAudioDevices.TabStop = false;
             // 
@@ -127,6 +128,7 @@ namespace Symply_SoundBoard_MK
             resources.ApplyResources(this.btnReloadDevices, "btnReloadDevices");
             this.btnReloadDevices.Name = "btnReloadDevices";
             this.btnReloadDevices.UseVisualStyleBackColor = true;
+            this.btnReloadDevices.Click += new System.EventHandler(this.btnReloadDevices_Click);
             // 
             // ComboVC
             // 
@@ -146,10 +148,10 @@ namespace Symply_SoundBoard_MK
             // 
             // groupBox1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.LabelRow);
             this.groupBox1.Controls.Add(this.RemoveRow);
             this.groupBox1.Controls.Add(this.AddRow);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
@@ -174,10 +176,10 @@ namespace Symply_SoundBoard_MK
             // 
             // groupBox2
             // 
-            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.LabelCol);
             this.groupBox2.Controls.Add(this.AddCol);
             this.groupBox2.Controls.Add(this.RemoveCol);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
@@ -202,10 +204,10 @@ namespace Symply_SoundBoard_MK
             // 
             // gbSoundboard
             // 
-            resources.ApplyResources(this.gbSoundboard, "gbSoundboard");
             this.gbSoundboard.Controls.Add(this.vsSoundVolume);
             this.gbSoundboard.Controls.Add(this.nSoundVolume);
             this.gbSoundboard.Controls.Add(this.cbEnableLoopback);
+            resources.ApplyResources(this.gbSoundboard, "gbSoundboard");
             this.gbSoundboard.Name = "gbSoundboard";
             this.gbSoundboard.TabStop = false;
             // 
@@ -234,12 +236,12 @@ namespace Symply_SoundBoard_MK
             // 
             // groupBox3
             // 
-            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Controls.Add(this.DeleteProfile);
             this.groupBox3.Controls.Add(this.LabelidProfile);
             this.groupBox3.Controls.Add(this.SaveProfile);
             this.groupBox3.Controls.Add(this.LoadProfile);
             this.groupBox3.Controls.Add(this.ComboProfile);
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.TabStop = false;
             // 
@@ -278,8 +280,8 @@ namespace Symply_SoundBoard_MK
             // 
             // groupBox4
             // 
-            resources.ApplyResources(this.groupBox4, "groupBox4");
             this.groupBox4.Controls.Add(this.label1);
+            resources.ApplyResources(this.groupBox4, "groupBox4");
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.TabStop = false;
             // 
@@ -288,44 +290,50 @@ namespace Symply_SoundBoard_MK
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
             // 
-            // menuStrip1
+            // groupBoxLanguage
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.languageToolStripMenuItem,
-            this.aboutToolStripMenuItem});
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
-            this.menuStrip1.Name = "menuStrip1";
+            this.groupBoxLanguage.Controls.Add(this.comboBox1);
+            resources.ApplyResources(this.groupBoxLanguage, "groupBoxLanguage");
+            this.groupBoxLanguage.Name = "groupBoxLanguage";
+            this.groupBoxLanguage.TabStop = false;
             // 
-            // languageToolStripMenuItem
+            // comboBox1
             // 
-            this.languageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.englishToolStripMenuItem,
-            this.frenchToolStripMenuItem});
-            this.languageToolStripMenuItem.Name = "languageToolStripMenuItem";
-            resources.ApplyResources(this.languageToolStripMenuItem, "languageToolStripMenuItem");
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            resources.GetString("comboBox1.Items"),
+            resources.GetString("comboBox1.Items1")});
+            resources.ApplyResources(this.comboBox1, "comboBox1");
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // englishToolStripMenuItem
+            // groupBox5
             // 
-            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
-            resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
-            this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
+            this.groupBox5.Controls.Add(this.linkLabel1);
+            this.groupBox5.Controls.Add(this.label2);
+            resources.ApplyResources(this.groupBox5, "groupBox5");
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.TabStop = false;
             // 
-            // frenchToolStripMenuItem
+            // linkLabel1
             // 
-            this.frenchToolStripMenuItem.Name = "frenchToolStripMenuItem";
-            resources.ApplyResources(this.frenchToolStripMenuItem, "frenchToolStripMenuItem");
-            this.frenchToolStripMenuItem.Click += new System.EventHandler(this.frenchToolStripMenuItem_Click);
+            resources.ApplyResources(this.linkLabel1, "linkLabel1");
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
-            // aboutToolStripMenuItem
+            // label2
             // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
             // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.groupBoxLanguage);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.gbSoundboard);
@@ -333,8 +341,6 @@ namespace Symply_SoundBoard_MK
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbAudioDevices);
             this.Controls.Add(this.TableLayout);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainForm";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.gbAudioDevices.ResumeLayout(false);
@@ -350,10 +356,10 @@ namespace Symply_SoundBoard_MK
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.groupBoxLanguage.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -388,11 +394,11 @@ namespace Symply_SoundBoard_MK
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button DeleteProfile;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem languageToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem frenchToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.GroupBox groupBoxLanguage;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

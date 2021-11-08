@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Media;
 using System.Text.RegularExpressions;
 using System.Threading;
@@ -516,24 +517,6 @@ namespace Symply_SoundBoard_MK
             }
         }
 
-        //---------------MENUSTRIP-----------------------------
-        private void englishToolStripMenuItem_Click(object sender, EventArgs e)
-        {       
-            
-            //frenchToolStripMenuItem.Checked = false;
-            //englishToolStripMenuItem.Checked = true;
-            sql.UpdateLang(0);
-            Application.Restart();
-        }
-
-        private void frenchToolStripMenuItem_Click(object sender, EventArgs e)
-        { 
-            
-            //frenchToolStripMenuItem.Checked = true;
-            //englishToolStripMenuItem.Checked = false;
-            sql.UpdateLang(1);
-            Application.Restart();
-        }
 
         private void MainForm_Load(object sender, EventArgs e)
         {
@@ -541,51 +524,62 @@ namespace Symply_SoundBoard_MK
             switch (lang)
             {
                 case 0:
-                    frenchToolStripMenuItem.Checked = false;
-                    englishToolStripMenuItem.Checked = true;
+                    comboBox1.SelectedIndex = 0;
                     break;
                 case 1:
-                    frenchToolStripMenuItem.Checked = true;
-                    englishToolStripMenuItem.Checked = false;
+                    comboBox1.SelectedIndex = 1;
                     break;
             }
         }
 
-        //--------------ABOUT FORM-----------------------------
-        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            using (Form form = new Form())
+            System.Diagnostics.Process.Start("https://github.com/MaitreKuc/Symply_SoundBoard_MK");
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch(comboBox1.SelectedIndex)
             {
-                form.Text = "A propos";
-                form.StartPosition = FormStartPosition.CenterParent;
-                form.FormBorderStyle= FormBorderStyle.FixedSingle;
-                form.Icon = this.Icon;
-                form.MaximizeBox = false;
-                form.MinimizeBox = false;
-                form.ClientSize = new System.Drawing.Size(250, 150);
-                Label lb = new Label();
-                lb.Size= new System.Drawing.Size(250, 75);
+                case 0:
+                    sql.UpdateLang(0);
+                    foreach (Control c in this.Controls)
+                    {
+                        ComponentResourceManager resources = new ComponentResourceManager(typeof(MainForm));
+                        resources.ApplyResources(c, c.Name, new System.Globalization.CultureInfo("en"));
+                        foreach (Control cc in c.Controls)
+                        { 
+                        ComponentResourceManager resourcess = new ComponentResourceManager(typeof(MainForm));
+                        resourcess.ApplyResources(cc, cc.Name, new System.Globalization.CultureInfo("en"));
+                        }
+                    }
+                    break;
 
-                lb.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-                lb.Text = "Create by Maitre Kuc";
-                lb.AutoSize = false;
-
-                lb.Dock = DockStyle.None;
-                
-                lb.Width = form.Width - 10;
-                form.Controls.Add(lb);
-
-                LinkLabel lk = new LinkLabel();
-                
-                lk.Size = new System.Drawing.Size(250, 75);
-                lk.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-                lk.Text = "Github";
-                lk.Location = new System.Drawing.Point(0, 75);
-                lk.LinkClicked+=(s, ee) => { System.Diagnostics.Process.Start("https://github.com/MaitreKuc/Symply-SoundBorard-MK"); };
-                     
-                form.Controls.Add(lk);
-                form.ShowDialog();
+                case 1:
+                    sql.UpdateLang(1);
+                    foreach (Control c in this.Controls)
+                    {
+                        ComponentResourceManager resources = new ComponentResourceManager(typeof(MainForm));
+                        resources.ApplyResources(c, c.Name, new System.Globalization.CultureInfo("fr"));
+                       
+                        foreach (Control cc in c.Controls)
+                        {
+                            ComponentResourceManager resourcess = new ComponentResourceManager(typeof(MainForm));
+                            resourcess.ApplyResources(cc, cc.Name, new System.Globalization.CultureInfo("fr"));
+                        }
+                    }
+                    break;
             }
+            
+        }
+
+        private void btnReloadDevices_Click(object sender, EventArgs e)
+        {
+            stopPlayback();
+            stopLoopback();
+
+            loadSoundDevices();
         }
     }
 }

@@ -118,6 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gbAudioDevices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 162</value>
+  </data>
+  <data name="gbAudioDevices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 127</value>
+  </data>
   <data name="btnReloadDevices.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAE
@@ -130,5 +136,38 @@
         /INpmhMC9jhJfh7+BV+SHWuxWCwoHw4RInGIrwPZnTzCq4C4gv9QsSPd1SD+H8EmUcLJ4qvEp/gT/BHY
         Y4ppdO2q5MekuyQRHeOvGbMX3y2PxesGlay5qc4j7G9LUU1M074Aavzm8qmXjf0AAAAASUVORK5CYII=
 </value>
+  </data>
+  <data name="btnReloadDevices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 16</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 98</value>
+  </data>
+  <data name="LabelRow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 26</value>
+  </data>
+  <data name="AddRow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 19</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 98</value>
+  </data>
+  <data name="AddCol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 21</value>
+  </data>
+  <data name="gbSoundboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 295</value>
+  </data>
+  <data name="gbSoundboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 58</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 359</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 71</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
   </data>
 </root>
