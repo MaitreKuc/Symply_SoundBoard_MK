@@ -56,6 +56,9 @@ namespace Symply_SoundBoard_MK
                     cmd.Name = string.Format("{0}_{1}", x, y);
                     //cmd.Text = string.Format("Button " + (x + y));
                     cmd.Text = sql.LabelSQL(idprofile, cmd.Name);
+                    cmd.Font = new System.Drawing.Font(cmd.Font.Name, 15, System.Drawing.FontStyle.Bold);
+                    
+                    cmd.FlatStyle = FlatStyle.Flat;
                     cmd.MouseDown += (s, e) => { ReadButton(s, (MouseEventArgs)e, cmd.Name, fm,cmd); };
                     layout.Controls.Add(cmd, x, y);
                 }

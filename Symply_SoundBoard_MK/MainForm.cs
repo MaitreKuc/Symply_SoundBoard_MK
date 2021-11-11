@@ -89,7 +89,8 @@ namespace Symply_SoundBoard_MK
             }
             
             InitializeComponent();
-            this.Icon = Properties.Resources.ico;
+            InitializeMenu();
+            this.Icon = Properties.Resources.icoo;
                 sql.ReadListProfil(ComboProfile);
                 sql.ReadLastProfil(ComboProfile, LabelidProfile);
                 Build.idprofile = Convert.ToInt32(LabelidProfile.Text);
@@ -540,16 +541,17 @@ namespace Symply_SoundBoard_MK
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            switch(comboBox1.SelectedIndex)
+            
+            switch (comboBox1.SelectedIndex)
             {
                 case 0:
                     sql.UpdateLang(0);
-                    foreach (Control c in this.Controls)
-                    {
+                    foreach (Control c in this.panel1.Controls)
+                    {                   
                         ComponentResourceManager resources = new ComponentResourceManager(typeof(MainForm));
                         resources.ApplyResources(c, c.Name, new System.Globalization.CultureInfo("en"));
                         foreach (Control cc in c.Controls)
-                        { 
+                        {
                         ComponentResourceManager resourcess = new ComponentResourceManager(typeof(MainForm));
                         resourcess.ApplyResources(cc, cc.Name, new System.Globalization.CultureInfo("en"));
                         }
@@ -558,7 +560,7 @@ namespace Symply_SoundBoard_MK
 
                 case 1:
                     sql.UpdateLang(1);
-                    foreach (Control c in this.Controls)
+                    foreach (Control c in this.panel1.Controls)
                     {
                         ComponentResourceManager resources = new ComponentResourceManager(typeof(MainForm));
                         resources.ApplyResources(c, c.Name, new System.Globalization.CultureInfo("fr"));
@@ -572,6 +574,7 @@ namespace Symply_SoundBoard_MK
                     break;
             }
             
+            
         }
 
         private void btnReloadDevices_Click(object sender, EventArgs e)
@@ -580,6 +583,92 @@ namespace Symply_SoundBoard_MK
             stopLoopback();
 
             loadSoundDevices();
+        }
+
+        private void buttonProfile_Click(object sender, EventArgs e)
+        {
+            ShowMenuTablePanel(TablePanelProfil);    
+        }
+
+        private void InitializeMenu()
+        {
+            TablePanelProfil.Visible = false;
+            TablePanelInfo.Visible = false;
+            TablePanelDevices.Visible = false;
+            TablePanelCustomize.Visible = false;
+            TablePanelAbout.Visible = false;
+            PanelLanguage.Visible = false;
+            PanelLoopback.Visible = false;
+        }
+
+        private void HideMenu()
+        {
+            if (TablePanelProfil.Visible == true)
+                TablePanelProfil.Visible = false;
+            if (TablePanelInfo.Visible == true)
+                TablePanelInfo.Visible = false;
+            if (TablePanelDevices.Visible == true)
+                TablePanelDevices.Visible = false;
+            if (TablePanelCustomize.Visible == true)
+                TablePanelCustomize.Visible = false;
+            if (TablePanelAbout.Visible == true)
+                TablePanelAbout.Visible = false;
+            if (PanelLanguage.Visible == true)
+                PanelLanguage.Visible = false;
+            if (PanelLoopback.Visible == true)
+                PanelLoopback.Visible = false;
+        }
+
+        private void ShowMenuTablePanel(TableLayoutPanel submenu)
+        {
+            if (submenu.Visible == false)
+            {
+                HideMenu();
+                submenu.Visible = true;
+            }
+            else
+                submenu.Visible = false;
+        }
+
+        private void ShowMenuPanel(Panel submenu)
+        {
+            if (submenu.Visible == false)
+            {
+                HideMenu();
+                submenu.Visible = true;
+            }
+            else
+                submenu.Visible = false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ShowMenuTablePanel(TablePanelCustomize);
+        }
+
+        private void BtAudioDevice_Click(object sender, EventArgs e)
+        {
+            ShowMenuTablePanel(TablePanelDevices);
+        }
+
+        private void BtVolLoopback_Click(object sender, EventArgs e)
+        {
+            ShowMenuPanel(PanelLoopback);
+        }
+
+        private void BtLanguage_Click(object sender, EventArgs e)
+        {
+            ShowMenuPanel(PanelLanguage);
+        }
+
+        private void BtInfo_Click(object sender, EventArgs e)
+        {
+            ShowMenuTablePanel(TablePanelInfo);
+        }
+
+        private void BtAbout_Click(object sender, EventArgs e)
+        {
+            ShowMenuTablePanel(TablePanelAbout);
         }
     }
 }
