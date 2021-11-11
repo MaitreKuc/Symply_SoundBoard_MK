@@ -20,7 +20,7 @@ In the application, in "Virtual Cable" choose "Cable Input", in microphone, your
 
 ![image](https://user-images.githubusercontent.com/30301747/140656370-c5b77d93-ca6b-4454-a267-815e2200ed94.png)
 
-![image](https://user-images.githubusercontent.com/30301747/140655978-d2b0bd95-b9c7-4cdf-802e-b71a53783acf.png)
+![image](https://user-images.githubusercontent.com/30301747/141348945-a7cdc28f-9a7f-4215-9e63-ef503b869725.png)
 
 
 
